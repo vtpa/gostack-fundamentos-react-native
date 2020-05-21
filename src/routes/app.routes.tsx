@@ -24,6 +24,7 @@ const AppRoutes: React.FC = () => (
       options={{
         headerShown: true,
         headerTransparent: true,
+        headerTitleAlign: 'center',
         headerTitle: () => <Image source={Logo} />,
       }}
       name="Dashboard"
@@ -37,7 +38,6 @@ const AppRoutes: React.FC = () => (
         headerLeftContainerStyle: {
           marginLeft: 20,
         },
-
         headerBackImage: () => <FeatherIcon name="chevron-left" size={24} />,
       }}
       name="Cart"

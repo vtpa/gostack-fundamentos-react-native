@@ -61,7 +61,7 @@ export const ProductPrice = styled.Text`
   margin-top: 5px;
 
   font-size: 16px;
-  color: #e83f5b;
+  color: #089a2b;
 `;
 
 export const ProductQuantity = styled.Text`
@@ -70,7 +70,7 @@ export const ProductQuantity = styled.Text`
   margin-right: 10px;
 
   font-size: 16px;
-  color: #e83f5b;
+  color: #089a2b;
 `;
 
 export const ActionContainer = styled.View`
@@ -93,7 +93,7 @@ export const TotalProductsContainer = styled.View`
   bottom: 0px;
 
   flex-direction: row;
-  background: #e83f5b;
+  background: #089a2b;
 
   padding: 20px 40px;
   justify-content: space-between;
