@@ -37,7 +37,6 @@ const Dashboard: React.FC = () => {
     async function loadProducts(): Promise<void> {
       await api.get('/products').then(response => {
         setProducts(response.data);
-        await AsyncStorage.setItem('@GoMarketPlace:products', response.data);
       });
     }
 
@@ -45,7 +44,7 @@ const Dashboard: React.FC = () => {
   }, []);
 
   function handleAddToCart(item: Product): void {
-    // TODO
+    addToCart(item);
   }
 
   return (
